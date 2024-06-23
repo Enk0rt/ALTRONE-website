@@ -1,0 +1,346 @@
+/* Main background lights */
+.main__title-conteiner {
+   position: relative;
+   width: 500px;
+   height: 300px;
+   margin: 0 auto;
+}
+
+.main__lights-violet--1 {
+   position: absolute;
+   top: 900px;
+   left: -110px;
+   width: 400px;
+   height: 400px;
+   -webkit-transform: rotateZ(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotateZ(45deg);
+   -webkit-filter: blur(160px);
+   filter: blur(160px);
+   opacity: 0.5;
+   z-index: -1;
+   background-color: #910099;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 6s;
+   animation-duration: 6s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+   overflow: hidden;
+}
+
+.main__lights-violet--2 {
+   position: absolute;
+   top: 300px;
+   right: -100px;
+   width: 300px;
+   height: 300px;
+   -webkit-transform: rotateZ(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotateZ(45deg);
+   -webkit-filter: blur(160px);
+   filter: blur(160px);
+   opacity: 0.5;
+   z-index: -1;
+   background-color: violet;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 5s;
+   animation-duration: 5s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-violet--3 {
+   position: absolute;
+   top: -200px;
+   width: 500px;
+   height: 500px;
+   border-radius: 50%;
+   -webkit-filter: blur(160px);
+   filter: blur(160px);
+   opacity: 0.5;
+   z-index: -1;
+   background-color: violet;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 8s;
+   animation-duration: 8s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+   z-index: -2;
+}
+
+.main__lights-violet--4 {
+   position: absolute;
+   top: 1200px;
+   left: 0px;
+   width: 200px;
+   height: 200px;
+   -webkit-transform: rotateZ(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotateZ(45deg);
+   -webkit-filter: blur(160px);
+   filter: blur(160px);
+   opacity: 0.5;
+   z-index: -1;
+   background-color: #910099;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 6s;
+   animation-duration: 6s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-violet--5 {
+   position: absolute;
+   top: 800px;
+   left: 0;
+   width: 300px;
+   height: 300px;
+   -webkit-transform: rotateZ(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotateZ(45deg);
+   -webkit-filter: blur(160px);
+   filter: blur(160px);
+   opacity: 0.8;
+   z-index: 2;
+   background-color: #910099;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 6s;
+   animation-duration: 6s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-violet--6 {
+   position: absolute;
+   bottom: 0;
+   right: -300px;
+   width: 600px;
+   height: 600px;
+   -webkit-transform: rotateZ(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotateZ(45deg);
+   -webkit-filter: blur(160px);
+   filter: blur(160px);
+   opacity: 0.8;
+   z-index: -1;
+   background-color: #910099;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 6s;
+   animation-duration: 6s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-violet--7 {
+   position: absolute;
+   bottom: -150px;
+   right: 0;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   -webkit-filter: blur(150px);
+   filter: blur(150px);
+   opacity: 0.8;
+   z-index: -1;
+   background-color: #910099;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 6s;
+   animation-duration: 6s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-violet--8 {
+   position: absolute;
+   top: 500px;
+   left: 500px;
+   width: 560px;
+   height: 560px;
+   -webkit-transform: rotateZ(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotateZ(45deg);
+   -webkit-filter: blur(160px);
+   filter: blur(160px);
+   opacity: 0.5;
+   z-index: -1;
+   background-color: #910099;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 5s;
+   animation-duration: 5s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-violet--9 {
+   position: absolute;
+   bottom: -150px;
+   right: -100px;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   -webkit-filter: blur(150px);
+   filter: blur(150px);
+   opacity: 0.8;
+   z-index: -1;
+   background-color: #910099;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 7.5s;
+   animation-duration: 7.5s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-blue {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 300px;
+   height: 300px;
+   -webkit-transform: rotateZ(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotateZ(45deg);
+   -webkit-filter: blur(160px);
+   filter: blur(160px);
+   opacity: 0.5;
+   z-index: -1;
+   background-color: blue;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 4.5s;
+   animation-duration: 4.5s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-blue--2 {
+   position: absolute;
+   top: 1000px;
+   left: 50px;
+   width: 300px;
+   height: 300px;
+   -webkit-transform: rotateZ(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotateZ(45deg);
+   -webkit-filter: blur(160px);
+   filter: blur(160px);
+   opacity: 0.4;
+   z-index: -1;
+   background-color: blue;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 4.5s;
+   animation-duration: 4.5s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-blue--3 {
+   position: absolute;
+   top: -80px;
+   left: -50px;
+   width: 600px;
+   height: 600px;
+   border-radius: 50%;
+   -webkit-filter: blur(200px);
+   filter: blur(200px);
+   opacity: 0.3;
+   z-index: -1;
+   background-color: blue;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 4.5s;
+   animation-duration: 4.5s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-blue--4 {
+   position: absolute;
+   top: 900px;
+   left: 800px;
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+   -webkit-filter: blur(150px);
+   filter: blur(150px);
+   opacity: 0.4;
+   z-index: -1;
+   background-color: blue;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 6s;
+   animation-duration: 6s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+.main__lights-blue--5 {
+   position: absolute;
+   bottom: -450px;
+   right: -50px;
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   -webkit-filter: blur(150px);
+   filter: blur(150px);
+   opacity: 0.5;
+   z-index: -1;
+   background-color: blue;
+   -webkit-animation-name: blink;
+   animation-name: blink;
+   -webkit-animation-timing-function: linear;
+   animation-timing-function: linear;
+   -webkit-animation-duration: 5s;
+   animation-duration: 5s;
+   -webkit-animation-iteration-count: infinite;
+   animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes blink {
+   50% {
+      opacity: 0;
+   }
+}
+
+@keyframes blink {
+   50% {
+      opacity: 0;
+   }
+}
+
+/* main background lights end */
